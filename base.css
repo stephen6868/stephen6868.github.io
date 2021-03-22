@@ -79,7 +79,7 @@ a:hover{
     }
 }
 .footer {
-    flex-grow: -1;
+    position: relative;
     height: 12.5vw;
     bottom: 0;
     width: 100%;
