@@ -25,7 +25,7 @@ p {
 }
 body {
     background-color:#3fbcad; /*Sets the background color of the body*/
-    height: 100%;
+    height: auto;
 }
 html {
     height: 100%;
@@ -68,25 +68,13 @@ a:hover{
     width: 27.5%;
     max-width: 27.5%;/*Can't get any bigger than a max size*/
 }
-@media screen and (max-width:1090px) {
-    .footer {
-        position: fixed;
-        height: 12.5vw;
-        bottom: 0;
-        width: 100%;
-        background-color: #586261;/*Color of the div*/
-        float: left;
-    }
-}
 .footer {
-    position: relative;
+    position: absolute;
     height: 12.5vw;
-    bottom: 0;
+    bottom: -100%;
     width: 100%;
     background-color: #586261;/*Color of the div*/
-    float: left;
-}
-
+    }
 #cont {
     margin-top: 1.5%;
     font-size: 2vw;
