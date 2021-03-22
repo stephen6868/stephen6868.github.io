@@ -1,0 +1,47 @@
+.j1{
+    margin: 5% 0 5% 10%;/*Use to position the div*/
+    height: 20vw;
+    width: 80%;
+    background-color: #2e95b4;
+    border-radius: 2vw 2vw 2vw 2vw;/*Sets the border radius*/
+    cursor: pointer;
+}
+#ijob {/*Image of job*/
+    position: relative;
+    top: 50%;/*First part in centering the logo inside the div*/
+    transform: translateY(-50%);/*Second part in centering*/
+    padding-left: 1%;
+    margin-bottom: 4%;
+    height: 90%;
+    border-radius: 2vw 2vw 2vw 2vw;/*Sets the border radius*/
+    float: left;
+}
+#hpart1 {
+    padding-top: 1%;
+    font-family: mySecondFont;
+    font-size: 2.1vw;
+    text-align: center;
+}
+#hpart2 {
+    font-family: mySecondFont;
+    font-size: 2vw;
+    text-align: center;
+}
+#hpart3 {
+    position: relative;
+    left: 1%;
+    font-family: mySecondFont;
+    font-size: 1.6vw;
+}
+#hpart4 {
+    position: relative;
+    left: 1%;
+    font-family: mySecondFont;
+    font-size: 1.5vw;
+}
+p {
+    position: relative;
+    left: 1%;
+    font-family: myThirdFont;
+    font-size: 1.2vw;
+}

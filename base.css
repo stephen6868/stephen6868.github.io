@@ -1,0 +1,99 @@
+* {/*Everthing by defualt is set to this*/
+    margin: 0;/*Every margin is set to 0*/
+    padding: 0;/*Every padding is set to 0*/
+    border: 0;/*Every border is set to 0*/
+    outline: 0;/*Every outline is set to 0*/
+    vertical-align: baseline;/*Every vertical alignment is set to baseline*/
+}
+@font-face { /*This is a custom font I downloaded and will be using in the website*/
+    font-family: myFirstFont;
+    src: url('fonts/Cheque\ Regular\ 400.otf');
+}
+@font-face {/*This is a custom font I downloaded and will be using in the website*/
+    font-family: mySecondFont;
+    src: url('fonts/Montserrat-SemiBold.ttf')
+}
+h2 {
+    font-family: mySecondFont;
+}
+p {
+    font-family:myThirdFont;
+}
+@font-face {/*This is a custom font I downloaded and will be using in the website*/
+    font-family: myThirdFont;
+    src: url('fonts/NixieOne-Regular.ttf');
+}
+body {
+    background-color:#3fbcad; /*Sets the background color of the body*/
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+.header { /*Floats the heading slightly left*/
+    height: 12.5vw; /*Height of the header is determined by the viewport width, so it adjust depending on screen size*/
+    width: 100%;
+    background-color: #586261;/*color of the div*/
+    display: block;/*Displays the element as a block*/
+}
+.hul {
+    position: relative;/*Position is relative to div*/
+    top: 50%;/*Used to position the text*/
+    transform: translateY(-50%);/*Used to position the text*/
+    margin-left: 31.5%;
+    list-style-type: none; /*Removes the bullet points from the list*/
+}
+a {
+    margin: 0 2% 0 0;/*Used to position the text*/
+    color: #d69137;/*Sets the color of the text*/
+    font-family: myFirstFont;/*Sets the font*/
+    -webkit-text-stroke-width: 0.1vw;/*This is for a stroke effect to apear on the outer edge of the text*/
+    -webkit-text-stroke-color: #fccca9;/*Color for the stroke*/
+    font-size: 2.5vw;
+    text-decoration: none;
+    cursor: pointer;/*Changes the cursor to a hand cursor*/
+}
+a:hover{
+    height: 10%;/*Positioning*/
+    width: 10%;/*Positioning*/
+    background-color: white;
+    border-radius: 7% 7% 7% 7%;/*Sets the border radius*/
+}
+#logo {
+    position: relative;/*Will use its position from the div*/
+    float: left;
+    top: 50%;/*First part in centering the logo inside the div*/
+    transform: translateY(-50%);/*Second part in centering*/
+    padding-right: 0.5vw;/*Used to position the image*/
+    width: 27.5%;
+    max-width: 27.5%;/*Can't get any bigger than a max size*/
+}
+@media screen and (max-width:1090px) {
+    .footer {
+        position: absolute;
+        margin-bottom: 0%;
+        height: 12.5vw;
+        bottom: 0;
+        width: 100%;
+        background-color: #586261;/*Color of the div*/
+        float: left;
+    }
+}
+.footer {
+    flex-grow: -1;
+    height: 12.5vw;
+    bottom: 0;
+    width: 100%;
+    background-color: #586261;/*Color of the div*/
+    float: left;
+}
+
+#cont {
+    margin-top: 1.5%;
+    font-size: 2vw;
+}
+#contd {
+    left: 0;
+    margin: -6.9% 0 0 50%;
+    font-size: 2vw;
+}

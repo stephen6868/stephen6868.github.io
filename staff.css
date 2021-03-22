@@ -1,0 +1,70 @@
+.jbase { /*Job base div*/
+    margin: 5% 0 5% 10%;/*Use to position the div*/
+    height: 52vw;
+    width: 80%;
+    background-color: #2e95b4;
+    border-radius: 2vw 2vw 2vw 2vw;/*Sets the border radius*/
+}
+#iemployee {/*Image of employee 1*/
+    position: relative;/*Used to position*/
+    padding: 1% 0 0 1%;/*Used to position*/
+    height: 15vw;
+    border-radius: 2vw 2vw 2vw 2vw;
+    float: left;/*Floats the image to left of the text*/
+}
+#iemployee2 {/*Image of employee 2*/
+    position: relative;/*Used to position*/
+    top: 5%;/*Used to position*/
+    padding-left: 1%;/*Used to position*/
+    height: 15vw;
+    border-radius: 2vw 2vw 2vw 2vw;
+    float: left;/*Floats the image to left of the text*/
+    clear: left;/*Stops the image appearing to right of the text on the lines above*/
+}
+#iemployee3 {/*Image of employee 3*/
+    position: relative;
+    top: 10%;
+    padding-left: 1%;/*Padding so it is not right up against the border*/
+    height: 15vw;
+    border-radius: 2vw 2vw 2vw 2vw;/*Sets the border size*/
+    float: left;/*Floats the image to left of the text*/
+    clear: left;/*Stops the image appearing to right of the text on the lines above*/
+}
+#jtitle {
+    font-size: 2.3vw;
+    font-family: mySecondFont;
+    text-align: center;/*Horizontal alignment*/
+}
+#jtitle2{
+    position: relative;
+    top: 12%;/*Positioning*/
+    font-family: mySecondFont;
+    font-size: 2.3vw;
+    text-align: center;
+}
+#jtitle3{
+    position: relative;
+    top: 25%;/*Positioning*/
+    font-family: mySecondFont;
+    font-size: 2.3vw;
+    text-align: center;
+}
+#p {
+    padding-left: 21%;/*Positioning*/
+    font-family: myThirdFont;
+    font-size: 1.5vw;
+}
+#p2{
+    position: relative;
+    top: 13%;
+    padding-left: 21%;
+    font-family: myThirdFont;
+    font-size: 1.5vw;
+}
+#p3{
+    position: relative;
+    top: 26%;
+    padding-left: 21%;
+    font-family: myThirdFont;
+    font-size: 1.5vw;
+}

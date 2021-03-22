@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job application</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="base.css">
+        <link rel="stylesheet" type="text/css" href="apply.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="images/logo.jpg" id="logo">
+            <ul class="hul">
+                <a href="home.html" class="home">Home</a>
+                <a href="staff.html"  class="staff">Staff</a>
+                <a href="jobs.html" >Jobs available</a>
+                <a href="course.html" >Courses offered</a>
+            </ul>
+        </div>
+        <div class="ab">
+            <form enctype="multipart/form-data" action="success.html">
+                <label id="title">Application form</label>
+                <select name="title" id="ljobs">
+                    <option>Web designer</option>
+                    <option>Web Developer</option>
+                    <option>IT Technician</option>
+                </select>
+                <label id="n1" for="1n">First Name</label>
+                <input name="1n" type="text" maxlength="30" placeholder="First Name" id="fn">
+
+                <label id="n2" for="2n">Last Name</label>
+                <input name="2n" type="text" maxlength="30" placeholder="Last Name" id="sn">
+
+                <label id="n3" for="3n">Phone number</label>
+                <input name="3n" type="number" maxlength="11" placeholder="Phone Number" id="fn"
+                oninput="javascript:if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                
+                <label id="n4" for="4n">E-mail</label>
+                <input name="4n" type="email" maxlength="30" placeholder="E-mail" id="sn">
+
+                <label id="n5" for="5n">Address</label>
+                <input name="5n" type="text" maxlength="40" placeholder="Address" id="an">
+
+                <label id="n6" for="6n">City</label>
+                <input name="6n" type="text" maxlength="30" placeholder="City" id="fn">
+
+                <label id="n7" for="7n">Postcode</label>
+                <input name="7n" type="text" maxlength="8" placeholder="Postcode" id="sn">
+
+                <label id="n8" for="8n">Personal statement/cv</label>
+                <textarea name="8n" style="resize: none;" type="text" maxlength="200" placeholder="Personal statement/CV"s id="cn"></textarea>
+                
+                <input type="submit" id="an">
+        </form>
+        </div>
+        <div class="footer">
+            <img id="logo" src="images/logo.jpg">
+            <h2 id="cont">Contact us<br>Email:<br>Telephone number:<br>Address:</h2>
+            <p id="contd">hotbeansweb@beans.com<br>012023456789<br>UK London, EC2V 7PG, 30 Gresham Street</p>
+        </div>
+    </body>
+</html>

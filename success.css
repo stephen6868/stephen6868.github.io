@@ -1,0 +1,15 @@
+.about {/*Section about the company*/
+    margin: 5% 0 5% 10%;/*Use to position the div*/
+    height: 15vw;
+    width: 80%;
+    background-color: #2e95b4;
+    border-radius: 2vw 2vw 2vw 2vw;/*Sets the border radius*/
+}
+#sh {
+    position: relative;
+    top: 50%;/*First part in centering the logo inside the div*/
+    transform: translateY(-50%);/*Second part in centering*/
+    font-family: mySecondFont;
+    font-size: 2.5vw;
+    text-align: center;
+}
