@@ -4,7 +4,6 @@
     width: 100%;
 }
 .about {/*Section about the company*/
-    position: relative;
     margin: 5% 0 0 10%;/*Use to position the div*/
     height: 15vw;
     width: 80%;
@@ -19,30 +18,27 @@
     border-radius: 2vw 2vw 2vw 2vw;/*Sets the border radius*/
 }
 #ah {/*Abour heading*/
-    text-align: center;/*Aligns the text horizontally*/
     padding-top: 1%;/*Use to position the about heading*/
-    font-family: mySecondFont;/*Using the second custom font*/
     font-size: 2.3vw;/*Font size based upon screen size*/
+    text-align: center;/*Aligns the text horizontally*/
 }
 p {
     position: relative;
     top:  -5%;/*Use to position the paragraphs*/
     padding: 1% 2% 0 1%;/*Use to position the paragraphs*/
-    font-family: myThirdFont;/*Using the third custom font*/
     font-size: 1.5vw;
     color: black;
 }
 #founder {
     position: relative;
     top: 50%;/*Positions the founder image and part of the vertical alignment*/
+    transform: translateY(-50%);/*Second part of the alignment*/
     padding: 1% 0 0 1%;/*Adds white space to the top and to the left of the image*/
     width: 20%;
     border-radius: 2vw 2vw 2vw 2vw;/*Sets the border radius*/
-    transform: translateY(-50%);/*Second part of the alignment*/
 }
 #historyH { /*History heading*/
     margin-top: -15%;/*Position the heading*/
-    font-family: mySecondFont;
     font-size: 2.3vw;
     text-align: center;/*Horizontal alignment*/  
 }

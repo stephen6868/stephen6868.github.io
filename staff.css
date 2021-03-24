@@ -32,39 +32,33 @@
 }
 #jtitle {
     font-size: 2.3vw;
-    font-family: mySecondFont;
     text-align: center;/*Horizontal alignment*/
 }
 #jtitle2{
     position: relative;
     top: 12%;/*Positioning*/
-    font-family: mySecondFont;
     font-size: 2.3vw;
     text-align: center;
 }
 #jtitle3{
     position: relative;
     top: 25%;/*Positioning*/
-    font-family: mySecondFont;
     font-size: 2.3vw;
     text-align: center;
 }
 #p {
     padding-left: 21%;/*Positioning*/
-    font-family: myThirdFont;
     font-size: 1.5vw;
 }
 #p2{
     position: relative;
     top: 13%;
     padding-left: 21%;
-    font-family: myThirdFont;
     font-size: 1.5vw;
 }
 #p3{
     position: relative;
     top: 26%;
     padding-left: 21%;
-    font-family: myThirdFont;
     font-size: 1.5vw;
 }

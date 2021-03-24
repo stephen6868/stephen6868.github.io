@@ -18,18 +18,15 @@
 }
 #hpart1 {
     padding-top: 1%;
-    font-family: mySecondFont;
     font-size: 2.1vw;
     text-align: center;
 }
 #hpart2 {
-    font-family: mySecondFont;
     font-size: 2vw;
     text-align: center;
 }
 #hpart3 {
     position: relative;
     left: 1%;
-    font-family: mySecondFont;
     font-size: 1.6vw;
 }

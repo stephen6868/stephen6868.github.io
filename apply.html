@@ -16,40 +16,33 @@
                 <a href="course.html" >Courses offered</a>
             </ul>
         </div>
-        <div class="ab">
+        <div class="ab"><!--Application base-->
             <form enctype="multipart/form-data" action="success.html">
                 <label id="title">Application form</label>
-                <select name="title" id="ljobs">
+                <select name="title" id="ljobs"><!--List jobs, this will alow the user to select the job they want to apply for-->
                     <option>Web designer</option>
                     <option>Web Developer</option>
                     <option>IT Technician</option>
                 </select>
-                <label id="n1" for="1n">First Name</label>
-                <input name="1n" type="text" maxlength="30" placeholder="First Name" id="fn">
-
-                <label id="n2" for="2n">Last Name</label>
-                <input name="2n" type="text" maxlength="30" placeholder="Last Name" id="sn">
-
-                <label id="n3" for="3n">Phone number</label>
+                <label id="n1" for="1n">First Name</label><!--Label for the text box-->
+                <input name="1n" type="text" maxlength="30" placeholder="First Name" id="fn"><!--Text box-->
+                <label id="n2" for="2n">Last Name</label><!--Label for the text box-->
+                <input name="2n" type="text" maxlength="30" placeholder="Last Name" id="sn"><!--Text box-->
+                <label id="n3" for="3n">Phone number</label><!--Label for the text box-->
                 <input name="3n" type="number" maxlength="11" placeholder="Phone Number" id="fn"
-                oninput="javascript:if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
-                
-                <label id="n4" for="4n">E-mail</label>
-                <input name="4n" type="email" maxlength="30" placeholder="E-mail" id="sn">
-
-                <label id="n5" for="5n">Address</label>
-                <input name="5n" type="text" maxlength="40" placeholder="Address" id="an">
-
-                <label id="n6" for="6n">City</label>
-                <input name="6n" type="text" maxlength="30" placeholder="City" id="fn">
-
-                <label id="n7" for="7n">Postcode</label>
-                <input name="7n" type="text" maxlength="8" placeholder="Postcode" id="sn">
-
-                <label id="n8" for="8n">Personal statement/cv</label>
-                <textarea name="8n" style="resize: none;" type="text" maxlength="200" placeholder="Personal statement/CV"s id="cn"></textarea>
-                
-                <input type="submit" id="an">
+                oninput="javascript:if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"><!--Text box-->
+                <label id="n4" for="4n">E-mail</label><!--code above is javascript for validation,Label for the text box-->
+                <input name="4n" type="email" maxlength="30" placeholder="E-mail" id="sn"><!--Text box-->
+                <label id="n5" for="5n">Address</label><!--Label for the text box-->
+                <input name="5n" type="text" maxlength="40" placeholder="Address" id="an"><!--Text box-->
+                <label id="n6" for="6n">City</label><!--Label for the text box-->
+                <input name="6n" type="text" maxlength="30" placeholder="City" id="fn"><!--Text box-->
+                <label id="n7" for="7n">Postcode</label><!--Label for the text box-->
+                <input name="7n" type="text" maxlength="8" placeholder="Postcode" id="sn"><!--Text box-->
+                <label id="n8" for="8n">Personal statement/cv</label><!--Label for the text box-->
+                <textarea name="8n" style="resize: none;" type="text" maxlength="200" placeholder="Personal statement/CV"s id="cn">
+                </textarea><!--Text box-->
+                <input type="submit" id="an"><!--Submit box-->
         </form>
         </div>
         <div class="footer">

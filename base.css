@@ -13,22 +13,25 @@
     font-family: mySecondFont;
     src: url('fonts/Montserrat-SemiBold.ttf')
 }
+@font-face {/*This is a custom font I downloaded and will be using in the website*/
+    font-family: myThirdFont;
+    src: url('fonts/NixieOne-Regular.ttf');
+}
+h1{
+    font-family: myFirstFont;
+}
 h2 {
     font-family: mySecondFont;
 }
 p {
     font-family:myThirdFont;
 }
-@font-face {/*This is a custom font I downloaded and will be using in the website*/
-    font-family: myThirdFont;
-    src: url('fonts/NixieOne-Regular.ttf');
-}
 body {
     background-color:#3fbcad; /*Sets the background color of the body*/
     height: auto;
 }
 html {
-    height: 100%;
+    height: auto;
 }
 .header { /*Floats the heading slightly left*/
     height: 12.5vw; /*Height of the header is determined by the viewport width, so it adjust depending on screen size*/
@@ -61,17 +64,17 @@ a:hover{
 }
 #logo {
     position: relative;/*Will use its position from the div*/
-    float: left;
     top: 50%;/*First part in centering the logo inside the div*/
     transform: translateY(-50%);/*Second part in centering*/
     padding-right: 0.5vw;/*Used to position the image*/
     width: 27.5%;
     max-width: 27.5%;/*Can't get any bigger than a max size*/
+    float: left;
 }
 .footer {
     position: absolute;
-    height: 12.5vw;
     bottom: -150%;
+    height: 12.5vw;
     width: 100%;
     background-color: #586261;/*Color of the div*/
     }
@@ -80,7 +83,7 @@ a:hover{
     font-size: 2vw;
 }
 #contd {
-    left: 0;
+    left: 0%;
     margin: -6.9% 0 0 50%;
     font-size: 2vw;
 }

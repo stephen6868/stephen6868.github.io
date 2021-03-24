@@ -5,14 +5,6 @@
     background-color: #2e95b4;
     border-radius: 2vw 2vw 2vw 2vw;/*Sets the border radius*/
 }
-#ljobs{/*List job, address*/
-    margin: 7.5% 0 0 5%;
-    height: 2.5vw;
-    width: 90%;
-    font-family: mySecondFont;
-    font-size: 2vw;
-    text-align-last: center;/*Aligns the placeholder text centered and inputed text*/
-}
 #title {
     position: absolute;
     margin-top: 1.5%;
@@ -21,11 +13,20 @@
     font-family: myFirstFont;
     font-size: 2.5vw;
 }
+label{
+    font-family: mySecondFont;
+}
+#ljobs{/*List jobs*/
+    margin: 7.5% 0 0 5%;
+    height: 2.5vw;
+    width: 90%;
+    font-size: 2vw;
+    text-align-last: center;/*Aligns the placeholder text centered and inputed text*/
+}
 #fn {/*First Name, Phone number/telephone, city*/
     margin: 3% 0 0 5%;
     height: 2.5vw;
     width: 42.5%;
-    font-family: mySecondFont;
     font-size: 1.95vw;
     text-indent: 0.5%;/*Indents the inputted text so it is not right on the edge when first typed*/
     text-align-last: center;/*Aligns the placeholder text centered and inputed text*/
@@ -35,7 +36,6 @@
     margin: 3% 0 0 5%;
     width: 42.5%;
     height: 2.5vw;
-    font-family: mySecondFont;
     font-size: 1.95vw;
     text-indent: 0.5%;/*Indents the inputted text so it is not right on the edge when first typed*/
     text-align-last: center;/*Aligns the placeholder text centered and inputed text*/
@@ -49,15 +49,13 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     margin: 3% 0 0 5%;
     height: 2.5vw;
     width: 90%;
-    font-family: mySecondFont;
     font-size: 2vw;
     text-align-last: center;/*Aligns the placeholder text centered and inputed text*/
 }
-#cn{/*List job, address*/
+#cn{/*CV name*/
     margin: 3% 0 0 5%;
     height: 20vw;
     width: 90%;
-    font-family: mySecondFont;
     font-size: 2vw;
     text-align-last: center;/*Aligns the placeholder text centered and inputed text*/
 }
@@ -66,7 +64,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     left: 26.5%;
     transform: translateX(25%);
     margin-top: 9%;
-    font-family: mySecondFont;
     font-size: 1.2vw;
 }
 #n2 {
@@ -74,7 +71,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     right: 24%;
     transform: translateX(-50%);
     margin-top: 0.75%;
-    font-family: mySecondFont;
     font-size: 1.2vw;
 }
 #n3{
@@ -82,7 +78,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     left: 22.5%;
     transform: translateX(50%);
     margin-top: 5.5%;
-    font-family: mySecondFont;
     font-size: 1.2vw;
 }
 #n4{
@@ -90,7 +85,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     right: 26.5%;
     transform: translateX(-50%);
     margin-top: 0.75%;
-    font-family: mySecondFont;
     font-size: 1.2vw;
 }
 #n5{
@@ -98,21 +92,18 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     left: 50%;
     transform: translateX(-50%);
     margin-top: 5.5%;
-    font-family: mySecondFont;
     font-size: 1.2vw;
 }
 #n6{
     position: absolute;
     left: 30%;
     margin-top: 5.5%;
-    font-family: mySecondFont;
     font-size: 1.2vw;
 }
 #n7{
     position: absolute;
     right: 27.5%;
     margin-top: 0.6%;
-    font-family: mySecondFont;
     font-size: 1.2vw;
 }
 #n8{
@@ -120,6 +111,5 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     left: 50%;
     transform: translateX(-50%);
     margin-top: 5.5%;
-    font-family: mySecondFont;
     font-size: 1.2vw;
 }
